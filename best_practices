@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scrum Practices</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Scrum Practices & Strategies</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="scrum.html">Scrum Practices</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Scrum Ceremonies</h2>
+      <ul>
+        <li>Facilitated Daily Standups, Sprint Planning, Retrospectives</li>
+        <li>Created alignment and ownership via structured ceremonies</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Backlog Grooming</h2>
+      <p>Trained new POs, implemented grooming cadences, used story points and Definition of Ready/Done for prioritization</p>
+    </section>
+
+    <section>
+      <h2>Dashboards & Metrics</h2>
+      <ul>
+        <li>Burn-down, Velocity, Blockers tracking in Jira and Azure DevOps</li>
+        <li>Used dashboards to increase executive transparency</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Team Coaching</h2>
+      <p>Mentored new Scrum Masters, onboarded team members to Agile principles and tools (Jira, Confluence)</p>
+    </section>
+  </main>
+</body>
+</html>
 
