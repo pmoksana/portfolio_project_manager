@@ -32,7 +32,7 @@ i've bilt my knowleage in AWS services, Linux, Python scripting, networking, and
 
 #### **SQL**
 
-* **Experience creating data visualizations in Python, using pandas to process data and Matplotlib to generate charts
+* **Experience creating data visualizations in Python, using pandas to process data and Matplotlib to generate charts**
 
 #### **Cloud & DevOps**
 
