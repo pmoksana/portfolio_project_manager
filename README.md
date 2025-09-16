@@ -12,18 +12,18 @@ i've bilt my knowleage in AWS services, Linux, Python scripting, networking, and
 📌 What I actually can bring with my hands on past expirience:
 
 ### Soft skils:
-🔹 Facilitate key Agile ceremonies and guide the team in applying Scrum values, ensuring we’re not just doing Agile, but being Agile
-🔹 Co-create roadmaps and delivery plans based on team capacity, product goals, and metrics — balancing the short-term sprint rhythm with the big-picture strategy
-🔹 Write epics, user stories, and requirements that help align dev work with business value
-🔹 Support the Product Owner in backlog prioritization, refinement, and stakeholder alignment
-🔹 Foster team connection and psychological safety through regular 1:1s, retrospectives, and open conversations — because delivery follows trust
-🔹 Track risks, dependencies, and delivery health — and proactively course-correct when needed
+* **🔹 Facilitate key Agile ceremonies and guide the team in applying Scrum values, ensuring we’re not just doing Agile, but being Agile
+* **🔹 Co-create roadmaps and delivery plans based on team capacity, product goals, and metrics — balancing the short-term sprint rhythm with the big-picture strategy
+* **🔹 Write epics, user stories, and requirements that help align dev work with business value
+* **🔹 Support the Product Owner in backlog prioritization, refinement, and stakeholder alignment
+* **🔹 Foster team connection and psychological safety through regular 1:1s, retrospectives, and open conversations — because delivery follows trust
+* **🔹 Track risks, dependencies, and delivery health — and proactively course-correct when needed
 
 📈 What’s worked well and shown good results:
-🔸 Created onboarding flows for new engineers that reduced ramp-up time and improved retention
- 🔸 Introduced metrics-driven planning and delivery retrospectives that helped teams improve sprint-over-sprint
- 🔸 Established a shared understanding of the product vision and technical roadmap between devs, POs, and stakeholders
- 🔸 Facilitated dozens of retrospectives and feedback loops to help teams reflect and continuously evolve
+* **🔸 Created onboarding flows for new engineers that reduced ramp-up time and improved retention
+* **🔸 Introduced metrics-driven planning and delivery retrospectives that helped teams improve sprint-over-sprint
+* **🔸 Established a shared understanding of the product vision and technical roadmap between devs, POs, and stakeholders
+* **🔸 Facilitated dozens of retrospectives and feedback loops to help teams reflect and continuously evolve
 
 
 
@@ -31,7 +31,8 @@ i've bilt my knowleage in AWS services, Linux, Python scripting, networking, and
 ### 🚀 Hard Skills & Technical Competencies:
 
 #### **SQL
-Experience creating data visualizations in Python, using pandas to process data and Matplotlib to generate charts
+
+* **Experience creating data visualizations in Python, using pandas to process data and Matplotlib to generate charts
 
 #### **Cloud & DevOps**
 
