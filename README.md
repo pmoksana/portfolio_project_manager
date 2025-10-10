@@ -4,12 +4,24 @@
 
 ### About Me
 
-With 5 years of practical experience as a project manager and Scrum master in global, multinational teams, I'm transitioning my career to a technical role. As a Junior Cloud Engineer,
-i've bilt my knowleage in AWS services, Linux, Python scripting, networking, and databases data, cloud infrastructure, and automation, managing both SQL and NoSQL databases, and my passion in data and analyzing.
+ I don't just manage projects; I drive them. I thrive on collaborating with diverse teams to set the strategic direction for engineering initiatives. 
+I'm the point of contact for our customers throughout the entire project and I'm the bridge between customer requirements and the tech project team
+In close cooperation with the specialist departments, I'm analyse and specify the customer's requirements and value
+I  ensure the project quality through continuous control, analysis, monitoring and reporting of the projects
+I empower the team to make quality a continuous exercise in analysis and control. 
+                This way, I don't just report, but we build a lasting quality foundation for the project
 
 
 ---
-📌 What I actually can bring with my hands on past expirience:
+Key Responsibilities and Contributions:
+           
+             I manage backlog evolution by serving as the prioritization bridge between the Product Owner's vision, through close collaboration with stakeholders and the technical team's capacity.
+            This involves using data-driven techniques (like impact vs. effort analysis) to ensure our evolving requirements always target the optimal outcome
+            I also handle staffing and resource allocation to ensure teams have what they need to succeed. 
+            I believe in proactive communication, and I make it a point to keep all stakeholders, including senior management, informed on project status and key milestones.
+As a strategic PM, my mission is simple: Empower the team to embed continuous improvement, resulting in superior user solutions that directly fuel business growth
+                
+        
 
 ### Soft skils:
 * 🔹 Facilitate key Agile ceremonies and guide the team in applying Scrum values, ensuring we’re not just doing Agile, but being Agile
