@@ -1,8 +1,8 @@
 /* --- 1. GLOBAL RESET & BASE STYLES --- */
 :root {
-    --primary-color: #4169E1; /* Royal Blue */
-    --secondary-color: #343a40; /* Dark Gray for contrast */
-    --text-color: #333;
+    --primary-color: ##002366; /* Royal Blue */
+    --secondary-color: #6096ff; /* Dark Gray for contrast */
+    --text-color: #000308;
     --light-bg: #f7f7f7;
     --white: #ffffff;
 }
@@ -83,7 +83,7 @@ main {
 }
 
 .cta-button:hover {
-    background-color: #2b49c0; 
+    background-color: #fffff; 
     transform: translateY(-2px);
 }
 
