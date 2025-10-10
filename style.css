@@ -1,138 +1,178 @@
+/* --- 1. GLOBAL RESET & BASE STYLES --- */
 :root {
-  --primary-color: #007bff;
-  --secondary-color: #2c3e50;
-  --background-color: #f4f7f6;
-  --card-background: #ffffff;
-  --text-color: #333;
-  --light-text-color: #fff;
-  --accent-color: #28a745;
-  --shadow-color: rgba(0, 0, 0, 0.1);
-  --font-heading: 'Poppins', sans-serif;
-  --font-body: 'Roboto', sans-serif;
+    --primary-color: #4169E1; /* Royal Blue */
+    --secondary-color: #343a40; /* Dark Gray for contrast */
+    --text-color: #333;
+    --light-bg: #f7f7f7;
+    --white: #ffffff;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Roboto:wght@400;500&display=swap');
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+*, *::before, *::after {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: var(--font-body);
-  line-height: 1.6;
-  color: var(--text-color);
-  background-color: var(--background-color);
-  scroll-behavior: smooth;
+    font-family: 'Arial', sans-serif; 
+    line-height: 1.6; 
+    color: var(--text-color);
+    background-color: var(--light-bg);
+    overflow-x: hidden;
 }
 
-h1, h2, h3 {
-  font-family: var(--font-heading);
-  color: var(--secondary-color);
-  margin-bottom: 0.5em;
-}
-
-a {
-  color: var(--primary-color);
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-a:hover {
-  color: var(--accent-color);
-}
-
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
+/* --- 2. LAYOUT & CONTAINERS --- */
 .section {
-  padding: 80px 0;
+    padding: 80px 20px; 
 }
 
-/* --- Hero Section --- */
+main {
+    max-width: 1100px;
+    margin: 0 auto; 
+    background-color: var(--white);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05); 
+}
+
+/* --- 3. HERO SECTION (Header) --- */
 .hero {
-  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-  color: var(--light-text-color);
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    background-color: var(--secondary-color);
+    color: var(--white);
+    text-align: center;
+    padding: 120px 20px;
 }
 
-.hero-content {
-  animation: fadeIn 1s ease-in-out;
+.pre-heading {
+    font-size: 1.2em;
+    color: var(--primary-color);
+    font-weight: 500;
 }
 
-.hero-title {
-  font-size: 3.5rem;
-  color: var(--light-text-color);
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+.hero-content h1 {
+    font-size: 4.5em;
+    margin: 5px 0 10px 0;
 }
 
-.hero-subtitle {
-  font-size: 1.5rem;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.9);
+.hero-content h2 {
+    font-size: 1.8em;
+    color: var(--primary-color);
+    margin-bottom: 30px;
 }
 
-.hero-intro {
-  font-size: 1.1rem;
-  max-width: 600px;
-  margin: 1.5rem auto;
+.intro {
+    font-size: 1.15em;
+    max-width: 750px;
+    margin: 15px auto 0 auto; /* Adjusted for multiple paragraphs */
+    color: #ccc;
 }
+/* Adjust margin for the last intro paragraph */
+.hero-content p:last-of-type {
+    margin-bottom: 30px;
+}
+
 
 .cta-button {
-  display: inline-block;
-  background-color: var(--accent-color);
-  color: var(--light-text-color);
-  padding: 12px 30px;
-  border-radius: 50px;
-  font-size: 1rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    display: inline-block;
+    background-color: var(--primary-color); 
+    color: var(--white);
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
 .cta-button:hover {
-  background-color: #218838;
-  transform: translateY(-3px);
+    background-color: #2b49c0; 
+    transform: translateY(-2px);
 }
 
-/* --- Sections --- */
+/* --- 4. SECTION HEADINGS --- */
 .section-title {
-  font-size: 2.5rem;
-  text-align: center;
-  margin-bottom: 1.5em;
-  position: relative;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: var(--secondary-color);
+    margin-bottom: 40px;
+    text-align: center;
 }
 
-.section-title::after {
-  content: '';
-  display: block;
-  width: 70px;
-  height: 4px;
-  background: var(--primary-color);
-  margin: 10px auto 0;
-  border-radius: 2px;
+/* --- 5. SKILLS AND LISTS --- */
+.skills-list, .projects-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); 
+    gap: 20px 40px;
+    padding: 0;
 }
 
-.section-text {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: justify;
+.skills-list li, .projects-list li {
+    font-size: 1.05em;
+    padding: 10px 0 10px 30px;
+    position: relative;
+    border-bottom: 1px dashed #eee;
 }
 
-.read-more-button {
-  display: block;
-  margin: 20px auto 0;
-  padding: 10px 20px;
-  border: 2px solid var(--primary-color);
-  border-radius: 50px;
-  background: none;
-  color: var(--primary-color);
+/* Custom bullet point styling */
+.skills-list li::before, .projects-list li::before {
+    content: '→'; 
+    color: var(--primary-color);
+    font-size: 1.2em;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* --- 6. FOOTER & CONTACT --- */
+.footer {
+    background-color: var(--secondary-color);
+    color: #ccc;
+    text-align: center;
+    padding: 40px 20px 20px 20px;
+}
+
+.footer .section-title {
+    color: var(--white);
+    border-bottom: none;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.footer a {
+    color: var(--primary-color); 
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 20px !important;
+    font-size: 0.8em;
+    color: #777;
+}
+
+/* --- 7. MOBILE RESPONSIVENESS --- */
+@media (max-width: 768px) {
+    .hero {
+        padding: 80px 15px;
+    }
+    .hero-content h1 {
+        font-size: 3em;
+    }
+    .hero-content h2 {
+        font-size: 1.4em;
+    }
+    .section-title {
+        font-size: 2em;
+        text-align: left;
+    }
+    .skills-list {
+        grid-template-columns: 1fr;
+    }
+}
